@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        html,
+        body,
+        h1,h2 {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+    </style>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather Dash</title>
+</head>
+<h1>Weather Dash</h1>
+<body>
+    <header>
+    <input type="text" class="search-box" id= "get-weather" placeholder="Search city..."></input>
+        <button type="button" class="btn btn-outline-primary"id="run-search" onclick="showWeather()">submit</button>
+                        <i class="search-box"></i></button>
+    </header>
+            <div class="row">
+                <div class="col-lg-12 forecast-container">
+                    <h2 class="five-day">5-Day Forecast</h2>
+                    <div class="card-deck text-center" style="color: rgb(131, 20, 20);">
+                        <div class="card">
+                            <div class="card-body forecast-card" id="1">
+                                <div class="date"> date </div>
+                                <div class="icon-container">
+                                    <img class="icon" src=".png">
+                                </div>
+                                <div class="temp">Temp: </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body forecast-card" id="2">
+                                <div class="date"> date </div>
+                                <div class="icon-container">
+                                    <img class="icon" src=".png">
+                                </div>
+                                <div class="temp">Temp: </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body forecast-card" id="3">
+                                <div class="date"> date </div>
+                                <div class="icon-container">
+                                    <img class="icon" src=".png">
+                                </div>
+                                <div class="temp">Temp: </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body forecast-card" id="4">
+                                <div class="date"> date </div>
+                                <div class="icon-container">
+                                    <img class="icon" src=".png">
+                                </div>
+                                <div class="temp">Temp: </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body forecast-card" id="5">
+                                <div class="date"> date </div>
+                                <div class="icon-container">
+                                    <img class="icon" src=".png">
+                                </div>
+                                <div class="temp">Temp: </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="weather.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
