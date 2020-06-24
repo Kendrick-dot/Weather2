@@ -1,2 +1,2 @@
 # Weather2
-Second try's a charm
+Second try's a charm :)
